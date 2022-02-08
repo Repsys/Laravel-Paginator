@@ -28,7 +28,7 @@
                 "Leonidark\\Paginator\\PaginatorServiceProvider"
             ],
             "aliases": {
-                "CustomPackage": "Leonidark\\Paginator\\PaginatorFacade"
+                "Paginator": "Leonidark\\Paginator\\PaginatorFacade"
             }
         }
     }
