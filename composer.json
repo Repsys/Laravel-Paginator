@@ -1,0 +1,35 @@
+{
+    "name": "leonidark/paginator",
+    "description": "Пагинация запросов и коллекций в Laravel",
+    "keywords": [
+        "leonidark",
+        "paginator"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Arhipov Leonid",
+            "email": "arhipov_leonid@smartworld.team"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Leonidark\\Paginator\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Leonidark\\Paginator\\PaginatorServiceProvider"
+            ],
+            "aliases": {
+                "CustomPackage": "Leonidark\\Paginator\\PaginatorFacade"
+            }
+        }
+    }
+}
