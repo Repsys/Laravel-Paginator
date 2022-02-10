@@ -110,7 +110,7 @@ class PaginatorService
 
     public function assignParams($list, $extra = [])
     {
-        return array_merge(['list' => $list], $extra, $this->getParams());
+        return array_merge(['list' => $list], $extra, ['paginate' => $this->getParams()]);
     }
 
     /**
