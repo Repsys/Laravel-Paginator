@@ -7,7 +7,7 @@ Pretty paginator facade for Laravel
 "repositories": [
   {
       "type": "vcs",
-      "url": "https://gitlab.smartworld.team/arhipov_leonid/paginator"
+      "url": "https://github.com/Repsys/Laravel-Paginator"
   },
   ...
 ],
